@@ -3,12 +3,13 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-deploy-plugin</artifactId>
   <versioning>
-    <latest>2.7-3l</latest>
-    <release>2.7-3l</release>
+    <latest>2.7-4l</latest>
+    <release>2.7-4l</release>
     <versions>
       <version>2.7-2l</version>
       <version>2.7-3l</version>
+      <version>2.7-4l</version>
     </versions>
-    <lastUpdated>20111206102204</lastUpdated>
+    <lastUpdated>20111206155253</lastUpdated>
   </versioning>
 </metadata>
