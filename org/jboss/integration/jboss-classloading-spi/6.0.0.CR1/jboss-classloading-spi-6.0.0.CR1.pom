@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jboss.integration</groupId>
+  <artifactId>jboss-classloading-spi</artifactId>
+  <version>6.0.0.CR1</version>
+  <name>JBoss ClassLoading 6.0.0 SPI</name>
+  <description>The Java ClassLoading 6.0.0 SPI classes</description>
+  <organization>
+    <name>JBoss, a division of Red Hat, Inc.</name>
+    <url>http://www.jboss.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>lgpl</name>
+      <url>http://repository.jboss.org/licenses/lgpl-2.1.txt</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.jboss</groupId>
+      <artifactId>jboss-common-core</artifactId>
+      <version>2.2.17.GA</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

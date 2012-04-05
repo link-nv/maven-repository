@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.hibernate</groupId>
+  <artifactId>hibernate-commons-annotations</artifactId>
+  <version>3.2.0.Final</version>
+  <name>Hibernate Commons Annotations</name>
+  <description>Common reflection code used in support of annotation processing</description>
+  <inceptionYear>2005</inceptionYear>
+  <organization>
+    <name>Hibernate.org</name>
+    <url>http://hibernate.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>GNU LESSER GENERAL PUBLIC LICENSE</name>
+      <url>http://www.gnu.org/licenses/lgpl.txt</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.5.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sun.xml.txw2</groupId>
+  <artifactId>txw2</artifactId>
+  <version>20110809</version>
+  <name>TXW2 Runtime</name>
+  <description>Java.net - The Source for Java Technology Collaboration</description>
+  <organization>
+    <name>Oracle</name>
+    <url>http://www.oracle.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>CDDL v1.1 / GPL v2 dual license</name>
+      <url>http://glassfish.java.net/public/CDDL+GPL_1_1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>javax.xml.stream</groupId>
+      <artifactId>stax-api</artifactId>
+      <version>1.0-2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>relaxngDatatype</groupId>
+      <artifactId>relaxngDatatype</artifactId>
+      <version>20020414</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

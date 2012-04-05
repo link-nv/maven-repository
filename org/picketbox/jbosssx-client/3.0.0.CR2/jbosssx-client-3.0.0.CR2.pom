@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.picketbox</groupId>
+  <artifactId>jbosssx-client</artifactId>
+  <version>3.0.0.CR2</version>
+  <name>PicketBox Client</name>
+  <description>PicketBox Client Library</description>
+  <organization>
+    <name>JBoss, a division of Red Hat, Inc.</name>
+    <url>http://www.jboss.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>lgpl</name>
+      <url>http://repository.jboss.org/licenses/lgpl-2.1.txt</url>
+    </license>
+  </licenses>
+</project>

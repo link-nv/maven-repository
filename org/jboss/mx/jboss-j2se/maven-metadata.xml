@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.mx</groupId>
+  <artifactId>jboss-j2se</artifactId>
+  <versioning>
+    <release>6.0.0.GA</release>
+    <versions>
+      <version>6.0.0.GA</version>
+    </versions>
+    <lastUpdated>20120405094753</lastUpdated>
+  </versioning>
+</metadata>

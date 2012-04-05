@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.owasp.esapi</groupId>
+  <artifactId>esapi</artifactId>
+  <version>2.0.1</version>
+  <name>ESAPI</name>
+  <description>The Enterprise Security API (ESAPI) project is an OWASP project
+        to create simple strong security controls for every web platform.
+        Security controls are not simple to build. You can read about the
+        hundreds of pitfalls for unwary developers on the OWASP website. By
+        providing developers with a set of strong controls, we aim to
+        eliminate some of the complexity of creating secure web applications.
+        This can result in significant cost savings across the SDLC.</description>
+  <organization>
+    <name>The Open Web Application Security Project (OWASP)</name>
+    <url>http://www.owasp.org/index.php</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <comments>Code License - New BSD License</comments>
+    </license>
+    <license>
+      <name>Creative Commons 3.0 BY-SA</name>
+      <url>http://creativecommons.org/licenses/by-sa/3.0/</url>
+      <comments>Content License - Create Commons 3.0 BY-SA</comments>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>commons-configuration</groupId>
+      <artifactId>commons-configuration</artifactId>
+      <version>1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils-core</artifactId>
+      <version>1.7.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>xom</groupId>
+      <artifactId>xom</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.beanshell</groupId>
+      <artifactId>bsh-core</artifactId>
+      <version>2.0b4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.owasp.antisamy</groupId>
+      <artifactId>antisamy</artifactId>
+      <version>1.4.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

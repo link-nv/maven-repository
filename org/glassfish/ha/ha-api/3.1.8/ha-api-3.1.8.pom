@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.glassfish.ha</groupId>
+  <artifactId>ha-api</artifactId>
+  <version>3.1.8</version>
+  <packaging>hk2-jar</packaging>
+  <name>GlassFish High Availability APIs and SPI</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.sun.enterprise</groupId>
+      <artifactId>hk2</artifactId>
+      <version>1.0.36</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

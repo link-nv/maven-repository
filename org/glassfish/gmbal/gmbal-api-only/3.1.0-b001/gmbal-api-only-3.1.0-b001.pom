@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.glassfish.gmbal</groupId>
+  <artifactId>gmbal-api-only</artifactId>
+  <version>3.1.0-b001</version>
+  <name>gmbal-api-only</name>
+  <description>gmbal API</description>
+  <organization>
+    <name>Sun Microsystems</name>
+    <url>http://www.sun.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>CDDL+GPL</name>
+      <url>https://glassfish.dev.java.net/public/CDDL+GPL.html</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.glassfish.external</groupId>
+      <artifactId>management-api</artifactId>
+      <version>3.0.0-b012</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

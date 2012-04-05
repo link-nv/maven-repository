@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>joda-time</groupId>
+  <artifactId>joda-time</artifactId>
+  <version>1.5.1</version>
+  <name>Joda time</name>
+  <description>Date and time library to replace JDK date handling.</description>
+  <inceptionYear>2002</inceptionYear>
+  <organization>
+    <name>Joda.org</name>
+    <url>http://www.joda.org</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/</url>
+    </license>
+  </licenses>
+</project>

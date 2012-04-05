@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sun.xml.ws</groupId>
+  <artifactId>policy</artifactId>
+  <version>2.3.1</version>
+  <name>policy</name>
+  <description>WS-Policy implementation for Project Metro</description>
+  <inceptionYear>2006</inceptionYear>
+  <organization>
+    <name>Oracle Corporation</name>
+    <url>http://www.oracle.com/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Dual License: CDDL 1.0 and GPL V2 with Classpath Exception</name>
+      <url>http://glassfish.java.net/public/CDDL+GPL_1_1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>javax.xml.stream</groupId>
+      <artifactId>stax-api</artifactId>
+      <version>1.0-2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.txw2</groupId>
+      <artifactId>txw2</artifactId>
+      <version>20110809</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.istack</groupId>
+      <artifactId>istack-commons-runtime</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.woodstox</groupId>
+      <artifactId>woodstox-core-asl</artifactId>
+      <version>4.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

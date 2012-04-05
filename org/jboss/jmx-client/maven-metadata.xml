@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss</groupId>
+  <artifactId>jmx-client</artifactId>
+  <versioning>
+    <release>4.2.3.GA</release>
+    <versions>
+      <version>4.2.3.GA</version>
+    </versions>
+    <lastUpdated>20120405094749</lastUpdated>
+  </versioning>
+</metadata>

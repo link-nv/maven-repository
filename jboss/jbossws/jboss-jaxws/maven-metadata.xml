@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jboss.jbossws</groupId>
+  <artifactId>jboss-jaxws</artifactId>
+  <versioning>
+    <release>3.0.1-native-2.0.4.GA</release>
+    <versions>
+      <version>3.0.1-native-2.0.4.GA</version>
+    </versions>
+    <lastUpdated>20120405094801</lastUpdated>
+  </versioning>
+</metadata>
