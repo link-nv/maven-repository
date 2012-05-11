@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.lin-k.util</groupId>
+  <artifactId>util-config-manual</artifactId>
+  <version>1.44</version>
+  <packaging>pom</packaging>
+  <name>Util Config Manual</name>
+  <description>Documentation about the operation and usage of util-common's configuration framework.</description>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+    <name>Lin.k N.V.</name>
+    <url>http://www.lin-k.net</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>7.0.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
