@@ -3,10 +3,10 @@
   <groupId>net.lin-k.util</groupId>
   <artifactId>util-protocol</artifactId>
   <versioning>
-    <release>1.44</release>
+    <release>1.46</release>
     <versions>
-      <version>1.44</version>
+      <version>1.46</version>
     </versions>
-    <lastUpdated>20120511142659</lastUpdated>
+    <lastUpdated>20120604080330</lastUpdated>
   </versioning>
 </metadata>
