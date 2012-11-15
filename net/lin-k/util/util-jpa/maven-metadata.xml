@@ -3,10 +3,11 @@
   <groupId>net.lin-k.util</groupId>
   <artifactId>util-jpa</artifactId>
   <versioning>
-    <release>1.46</release>
+    <release>1.47</release>
     <versions>
       <version>1.46</version>
+      <version>1.47</version>
     </versions>
-    <lastUpdated>20120604080320</lastUpdated>
+    <lastUpdated>20121115141852</lastUpdated>
   </versioning>
 </metadata>
