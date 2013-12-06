@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.lin-k.util</groupId>
+  <artifactId>util-j2ee-jboss6</artifactId>
+  <version>1.52</version>
+  <name>Util J2EE for JBoss 6</name>
+  <description>J2EE Utility library for JBoss 6.</description>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+    <name>Lin.k N.V.</name>
+    <url>http://www.lin-k.net</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>net.lin-k.util</groupId>
+      <artifactId>util-j2ee</artifactId>
+      <version>1.52</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.ejb3</groupId>
+      <artifactId>jboss-ejb3-ext-api</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>ejb3-persistence</artifactId>
+          <groupId>org.hibernate</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.mx</groupId>
+      <artifactId>jboss-j2se</artifactId>
+      <version>6.0.0.GA</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>jboss-logging-spi</artifactId>
+          <groupId>org.jboss.logging</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jboss-logging-log4j</artifactId>
+          <groupId>org.jboss.logging</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.picketbox</groupId>
+      <artifactId>jbosssx-client</artifactId>
+      <version>3.0.0.CR2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging-api</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>7.0.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
