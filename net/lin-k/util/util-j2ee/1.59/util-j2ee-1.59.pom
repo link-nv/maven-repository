@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.lin-k.util</groupId>
+  <artifactId>util-j2ee</artifactId>
+  <version>1.59</version>
+  <name>Util J2EE</name>
+  <description>J2EE Utility library.</description>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+    <name>Lin.k N.V.</name>
+    <url>http://www.lin-k.net</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>net.lin-k.util</groupId>
+      <artifactId>util-common</artifactId>
+      <version>1.59</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>7.0.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
