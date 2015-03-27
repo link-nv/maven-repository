@@ -3,10 +3,10 @@
   <groupId>net.lin-k.util</groupId>
   <artifactId>util-j2ee-jboss6</artifactId>
   <versioning>
-    <release>1.59</release>
+    <release>1.60</release>
     <versions>
-      <version>1.59</version>
+      <version>1.60</version>
     </versions>
-    <lastUpdated>20141201154526</lastUpdated>
+    <lastUpdated>20150327142925</lastUpdated>
   </versioning>
 </metadata>
